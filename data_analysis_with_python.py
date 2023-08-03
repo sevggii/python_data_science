@@ -9,5 +9,5 @@
 
 import pandas as pd
 
-pd.read_csv()
-
+df = pd.read_csv("datasets/advertising.csv")
+df.head()
